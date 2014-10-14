@@ -11,14 +11,36 @@ div {
 
 .navLink, .navLink:active, .navLink:visited {
   text-decoration: none;
-  color: #aaa;
+  color: #FF8000;
   margin: 0px 10px; }
 
 .navLink:hover {
-  color: #FF3300; }
+  color: #FFBB00; }
 
 .socialLinks {
   float: right; }
+
+.postLink, .postLink:active, .postLink:visited, .rssSubscribe, .rssSubscribe:active, .rssSubscribe:visited {
+  color: #FF8000;
+  text-decoration: none; }
+
+.postLink:hover, .rssSubscribe:hover {
+  color: #FFBB00; }
+
+.postList {
+  list-style: none; }
+
+.postListItem:after {
+  content: "";
+  background-color: #000;
+  width: 25%;
+  height: 1px;
+  display: block;
+  clear: both; }
+
+.home {
+  width: 90%;
+  margin: auto; }
 
 .header {
   width: 100%;
