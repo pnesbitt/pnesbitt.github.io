@@ -5,9 +5,22 @@
     <description>Such Blog. Much Posts. Wow.</description>
     <link>http://pnesbitt.github.io/</link>
     <atom:link href="http://pnesbitt.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Oct 2014 11:38:53 -0500</pubDate>
-    <lastBuildDate>Mon, 13 Oct 2014 11:38:53 -0500</lastBuildDate>
+    <pubDate>Mon, 13 Oct 2014 23:16:19 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2014 23:16:19 -0500</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Learning Jekyll!</title>
+        <description>&lt;p&gt;So I finally got Jekyll working on Windows and am now starting to update my blog. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 16:01:07 -0500</pubDate>
+        <link>http://pnesbitt.github.io/jekyll/2014/10/13/learning-jekyll.html</link>
+        <guid isPermaLink="true">http://pnesbitt.github.io/jekyll/2014/10/13/learning-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>

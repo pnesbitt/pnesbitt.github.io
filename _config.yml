@@ -1,11 +1,14 @@
 # Site settings
 title: This Is Blog
-email: paul.nesbitt@erdosmiller.com
 description: Such Blog. Much Posts. Wow.
+email: paul.nesbitt@erdosmiller.com
+phone: (832)489-8434
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pnesbitt.github.io" # the base hostname & protocol for your site
-twitter_username: pnesbitt
-github_username:  pnesbitt
+github: pnesbitt
+github_URL: https://github.com/pnesbitt
+linkedIn: Paul Nesbitt
+linkedIn_URL: http://www.linkedin.com/pub/paul-nesbitt/25/447/29a/
 
 # Build settings
 markdown: kramdown
