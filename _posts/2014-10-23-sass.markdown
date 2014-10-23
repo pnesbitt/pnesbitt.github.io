@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Sass"
+date:   2014-10-23 9:45:30
+categories: class sass update
+---
+So to go along with learning Foundation, we also learned about Sass, CSS with Superpowers. I can definitely see the benefits of it, but at the time, was more interested in Foundation. So this is definitely something I need to look through a bit more thoroughly because it could help a lot I'm sure. Wish there was more time in the day to do so...

@@ -9,23 +9,18 @@ body {
 div {
   padding: 10px; }
 
-.navLink, .navLink:active, .navLink:visited {
-  text-decoration: none;
-  color: #FF8000;
-  margin: 0px 10px; }
-
-.navLink:hover {
-  color: #FFBB00; }
-
-.socialLinks {
-  float: right; }
-
-.postLink, .postLink:active, .postLink:visited, .rssSubscribe, .rssSubscribe:active, .rssSubscribe:visited {
+.linkColors, .linkColors:active, .linkColors:visited {
   color: #FF8000;
   text-decoration: none; }
 
-.postLink:hover, .rssSubscribe:hover {
+.linkColors:hover {
   color: #FFBB00; }
+
+.navLink {
+  margin: 0px 10px; }
+
+.socialLinks {
+  float: right; }
 
 .postList {
   list-style: none; }

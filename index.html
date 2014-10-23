@@ -7,12 +7,12 @@ layout: default
     {% for post in site.posts %}
       <li class="postListItem">
         <h2>
-          <a class="postLink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="postLink linkColors" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <h4><i><span class="postMeta">{{ post.date | date: "%b %-d, %Y" }}</span></i></h4>
         <p>{{post.excerpt}}</p>
       </li>
     {% endfor %}
   </ul>
-  <p>subscribe <a class="rssSubscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p>subscribe <a class="rssSubscribe linkColors" href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>

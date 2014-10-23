@@ -2,16 +2,16 @@
     <div class = "navigation">
         {% for page in site.pages %}
             {% if page.title %}
-                <a class = "navLink" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> | 
+                <a class = "navLink linkColors" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> | 
             {% endif %}
         {% endfor %}
     </div>
     <div class = "footer">
         <span class = "socialLinks">
-            <a href = "mailto:{{ site.email }}" target = "_top"  class = "navLink">✉ {{ site.email }}</a> |
-            <a href = "tel: +18324898434" class = "navLink">☎ {{ site.phone }}</a> |
-            <a href = "{{ site.linkedIn_URL }}" target = "_blank" class = "navLink"><img src = "/images/linkedin.png" class = "socialContactImages"/> {{ site.linkedIn }}</a> |
-            <a href = "{{ site.github_URL }}" target = "_blank" class = "navLink"><img src = "/images/github.png" class = "socialContactImages"/> {{ site.github }}</a>
+            <a href = "mailto:{{ site.email }}" target = "_top"  class = "navLink linkColors">✉ {{ site.email }}</a> |
+            <a href = "tel: +18324898434" class = "navLink linkColors">☎ {{ site.phone }}</a> |
+            <a href = "{{ site.linkedIn_URL }}" target = "_blank" class = "navLink linkColors"><img src = "/images/linkedin.png" class = "socialContactImages"/> {{ site.linkedIn }}</a> |
+            <a href = "{{ site.github_URL }}" target = "_blank" class = "navLink linkColors"><img src = "/images/github.png" class = "socialContactImages"/> {{ site.github }}</a>
         </span>
     </div>
 </footer>
